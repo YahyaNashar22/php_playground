@@ -1,0 +1,54 @@
+/* General page styling */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f4f7f6;
+    padding: 40px;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    letter-spacing: 1px;
+}
+
+/* Table layout */
+table {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse; /* Removes the double border look */
+    background-color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Header cells */
+th {
+    background-color: #6200ff;
+    color: #ffffff;
+    text-align: left;
+    padding: 12px 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+/* Body cells */
+td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #dddddd;
+}
+
+/* Zebra striping for readability */
+tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+/* Hover effect to highlight rows */
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Last row border fix */
+tr:last-of-type td {
+    border-bottom: 2px solid #6200ff;
+}
